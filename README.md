@@ -48,7 +48,7 @@ This project was developed to gain practical experience with cloud infrastructur
 
 The following diagram illustrates the architecture of the monitoring stack deployed on AWS.
 
-![Project Architecture](images/Project 1 monitoring stack architecture diagram.png)
+![Project Architecture](images/architecture.png)
 
 ---
 

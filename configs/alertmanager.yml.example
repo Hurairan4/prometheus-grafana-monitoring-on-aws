@@ -1,1 +1,26 @@
+# ==========================================================
+# Alertmanager Configuration Example
+#
+# Replace the placeholder values below with your own:
+# - Gmail address
+# - Gmail App Password
+# - Recipient email address
+#
+# Never commit real credentials to a public repository.
+# ==========================================================
 
+global:
+  smtp_smarthost: 'smtp.gmail.com:587'
+  smtp_from: 'your-email@gmail.com'
+  smtp_auth_username: 'your-email@gmail.com'
+  smtp_auth_password: 'your-app-password'
+  smtp_require_tls: true
+
+route:
+  receiver: email-notifications
+
+receivers:
+  - name: email-notifications
+    email_configs:
+      - to: 'recipient@example.com'
+        send_resolved: true

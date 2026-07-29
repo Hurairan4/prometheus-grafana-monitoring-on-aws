@@ -52,6 +52,32 @@ The following diagram illustrates the architecture of the monitoring stack deplo
 
 ---
 
+## Screenshots
+
+### AWS EC2 Instance
+
+![AWS EC2 Instance](images/aws-ec2-instance.png)
+
+### Grafana Dashboard
+
+![Grafana Dashboard 1](images/grafana-dashboard-1.png)
+
+![Grafana Dashboard 2](images/grafana-dashboard-2.png)
+
+### Prometheus
+
+![Prometheus Targets](images/prometheus-targets.png)
+
+### Alertmanager
+
+![Alertmanager](images/alertmanager.png)
+
+### Email Alert
+
+![Email Alert](images/email-alert-1.png)
+
+---
+
 ## Monitoring Workflow
 
 1. Node Exporter collects operating system metrics from the Ubuntu EC2 instance.
